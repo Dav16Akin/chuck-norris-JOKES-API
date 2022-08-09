@@ -1,0 +1,39 @@
+body {
+    color: black;
+    background-color: rgb(68, 68, 68);
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 20px;
+}
+
+.cont {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.number-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
